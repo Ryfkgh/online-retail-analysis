@@ -3,6 +3,9 @@
 Two years of transactions from a UK online gift retailer (about 1 million invoice lines),
 cleaned, analysed and turned into an interactive dashboard.
 
+**[Open the live dashboard](https://online-retail-analysis-dmes6pux7appgwm4idyos8d.streamlit.app/)**
+(it may take half a minute to wake up if nobody has used it recently).
+
 **Contents:** a reproducible cleaning script, a Jupyter notebook with the full analysis,
 a Streamlit dashboard, and a one-page summary of findings for a non-technical reader.
 
