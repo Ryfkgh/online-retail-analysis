@@ -1,0 +1,10 @@
+step,rows_before,rows_removed,rows_after,note
+load,1067371,0,1067371,Both sheets combined (Dec 2009 - Dec 2011)
+sheet_overlap,1067371,22523,1044848,Second sheet repeats invoices up to 09 Dec 2010; kept the first copy
+exact_duplicates,1044848,11812,1033036,"Identical rows, usually double-scanned items"
+bad_debt_adjustments,1033036,6,1033030,Invoices starting with 'A' are accounting entries
+non_product_codes,1033030,5812,1027218,"Postage, fees, discounts, manual entries, gift vouchers"
+zero_or_negative_price,1027218,5964,1021254,"Free samples, damaged-stock notes and write-offs"
+negative_qty_not_return,1021254,0,1021254,Stock corrections that are not customer returns
+cancelled_within_a_day,1021254,2774,1018480,1387 sales fully cancelled by the same customer within 24 hours; both lines removed (net revenue unchanged)
+missing_customer_id_kept,1018480,0,1018480,"226943 rows have no Customer ID; kept for revenue, excluded from customer metrics"
